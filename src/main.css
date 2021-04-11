@@ -1,0 +1,407 @@
+/*****use scss*******/
+/*****end scss*******/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.container {
+  padding: 0 !important;
+}
+
+nav.navbar.fixed-top.navbar-expand-lg.navbar-dark.indigo {
+  padding: 10px 119px;
+}
+
+div#navbarSupportedContent {
+  border-bottom: 1px solid #c1c1c1;
+}
+
+li.nav-item.active {
+  border-bottom: 2px solid #F16739;
+}
+
+.best_head {
+  width: 100%;
+  min-height: 500px;
+  padding: 20px 20px;
+  color: #ffffff;
+  background: url(../images/Group-79.png) no-repeat center center;
+  background-size: cover;
+  padding-top: 135px;
+}
+
+.seemore {
+  text-align: center;
+  margin-top: 124px;
+}
+
+.best_head h3 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.best_head p {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+button.getstart {
+  width: 100%;
+  max-width: 191px;
+  border: 0;
+  height: 48px;
+  background: #F16739;
+  border-radius: 24px;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  display: block;
+}
+
+.col-sm-12.benifit_head1 {
+  margin: 25px auto 25px;
+}
+
+.col-sm-12.benifit_head1 h3 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.col-sm-12.benifit_head1 p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.benifit2 {
+  background: #000000;
+  color: #ffffff;
+}
+
+.col-sm-12.benifit_head {
+  margin: 25px auto 25px;
+}
+
+.row.ben_img_txt {
+  margin: 50px 0px;
+}
+
+.col-sm-12.benifit_head h3 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.col-sm-3.tt_ben_img img {
+  float: left;
+  padding: 10px;
+}
+
+.col-sm-3.tt_ben_img p {
+  text-align: left;
+  letter-spacing: 0px;
+  color: #CCCCCC;
+  opacity: 1;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+.col-sm-12.benifit_head p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tt_gall img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.tt_ben_img img:hover {
+  opacity: 0.5;
+}
+
+.benifit1 img:hover {
+  opacity: 0.5;
+}
+
+.tt_pricing {
+  background: #FDBA12 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.col-sm-12.gall_head {
+  margin: 25px auto 25px;
+  padding: 0px;
+}
+
+.row.tt_gallery {
+  padding: 20px;
+}
+
+.col-sm-12.gall_head h3 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.col-sm-12.gall_head p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.tt_uline {
+  border-bottom: 2px solid #F16739;
+  width: 105px;
+  margin: 0 auto 10px;
+}
+
+.col-lg-12.tt_circle {
+  width: 100%;
+  height: 250px;
+  background: #FFE8BB 0% 0% no-repeat padding-box;
+  opacity: 1;
+  max-width: 250px;
+  margin: 20px auto;
+  border-radius: 50%;
+  padding: 65px 30px;
+}
+
+.col-lg-12.tt_circle h3 {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #1A1A1A;
+  opacity: 1;
+  font-size: 68px;
+}
+
+p.tt_pr {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.col-lg-12.tt_booknow button {
+  width: 100%;
+  max-width: 191px;
+  border: 0;
+  height: 48px;
+  background: #F16739 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.row.tt_pricing {
+  padding: 30px 0px;
+}
+
+.col-lg-12.pricing_head {
+  margin: 25px auto 25px;
+}
+
+.col-lg-12.pricing_head h3 {
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.col-lg-12.pricing_head p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+button.btn_send {
+  width: 100%;
+  max-width: 191px;
+  border: 0;
+  height: 48px;
+  background: #F16739 0% 0% no-repeat padding-box;
+  border-radius: 24px;
+  opacity: 1;
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+input.inp_txt {
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #c1c1c1;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+.col-sm-6.tt_contac {
+  margin: 25px auto 25px;
+}
+
+.col-sm-6.tt_form {
+  margin: 25px auto 25px;
+}
+
+.col-sm-6.tt_form h3 {
+  font-size: 40px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.col-sm-6.tt_form .tt_uline {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.col-sm-6.tt_contac h3 {
+  font-size: 40px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.col-sm-6.tt_contac h5 {
+  text-align: left;
+}
+
+.col-sm-6.tt_contac p {
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.col-sm-4.tt_gall img {
+  width: 100%;
+  height: 100%;
+}
+
+.col-sm-4.tt_gall {
+  padding: 0px;
+}
+
+.col-sm-6.tt_contac .tt_uline {
+  margin-left: 25px;
+}
+
+.col-lg-12.tt_circle span {
+  font-size: 20px;
+  font-weight: 600;
+  position: absolute;
+  clear: both;
+  left: 30px;
+  top: 70px;
+}
+
+p.emilid {
+  color: #F16739;
+}
+
+.row.footer.btm_footer {
+  padding: 20px;
+  background: #585453;
+  color: #ffffff;
+}
+
+.copyright {
+  color: #ffffff;
+  background: #000000;
+  padding: 0;
+}
+
+.row.footer.btm_footer {
+  padding: 20px;
+  background: #585453;
+  color: #ffffff;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col-sm-12.mappt {
+  padding: 0;
+}
+
+.row.footer.btm_footer img:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  width: 100%;
+  height: 400px;
+}
+
+.gmap_iframe {
+  width: 100% !important;
+  height: 400px !important;
+}
+
+@media (max-width: 480px) {
+  .best_head p {
+    width: 90%;
+  }
+  .seemore {
+    text-align: center;
+    margin-top: 80px;
+  }
+  .col-sm-12.benifit_head p {
+    width: 50%;
+  }
+  .col-sm-3.tt_ben_img img {
+    float: none;
+    padding: 10px;
+    text-align: center;
+  }
+  .col-sm-3.tt_ben_img p {
+    text-align: center;
+  }
+  .col-sm-12.gall_head p {
+    width: 90%;
+  }
+  .col-lg-12.pricing_head p {
+    width: 90%;
+  }
+  .col-sm-6.tt_contac h3, .col-sm-6.tt_contac h5, .col-sm-6.tt_contac p, .col-sm-6.tt_form h3 {
+    text-align: center;
+  }
+  .col-sm-6.tt_form .tt_uline, .col-sm-6.tt_contac .tt_uline {
+    margin-left: auto;
+  }
+  .tp_img {
+    float: left;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+  }
+  .collapse:not(.show) {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
